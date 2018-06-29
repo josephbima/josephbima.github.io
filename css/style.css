@@ -145,6 +145,10 @@ ol {
 .bm-port:hover {
 	color: #D7A010
 }
+
+.bm-img-one {
+	padding-left: 150px;
+}
 /*---------------------
 	Helper CSS
 -----------------------*/
