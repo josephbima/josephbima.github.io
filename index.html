@@ -3,6 +3,8 @@
 <head>
 	<title></title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -38,6 +40,31 @@
 	        <link href="css-3/style.css" rel="stylesheet">
 	    <link rel="stylesheet" href="style.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css-4/util.css">
+	<link rel="stylesheet" type="text/css" href="css-4/main.css">
+
 
 
 
@@ -56,31 +83,59 @@
     <link href="css-3/style.css" rel="stylesheet">
     
 </head>
-<body>
+<body class="">
 	<!-- Page Preloder -->
 	
 
 	<!-- Header section start -->
-	<header class="header-section sp-pad">
-<!-- 		<h3 class="site-logo">HALO</h3>
- -->		<img src="img/tets-logo.png">
-		<!-- <form class="search-top">
-			<button class="se-btn"><i class="fa fa-search"></i></button>
-			<input type="text" placeholder="Search.....">
-		</form> -->
-		<div class="nav-switch">
-			<i class="fa fa-bars"></i>
+	<header>
+		<!-- Header desktop -->
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+					<!-- Logo -->
+					<div class="logo">
+						<a href="index.html">
+							<img src="img/tets-logo.png" alt="IMG-LOGO" >
+						</a>
+					</div>
+
+					<!-- Menu -->
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<nav class="menu">
+							<ul class="main_menu">
+								<li>
+									<a href="#about">Home</a>
+								</li>
+
+							
+								
+
+								<li>
+									<a href="#port">Portfolio</a>
+								</li>
+
+								<li>
+									<a href="about.html">About</a>
+								</li>
+
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+
+								<!-- <li><button class="btn-show-sidebar m-l-33 trans-0-4"></button></li> -->
+							</ul>
+						</nav>
+					</div>
+
+					<!-- Social -->
+
+					
+					
+				</div>
+			</div>
 		</div>
-		<nav class="main-menu">
-			<ul>
-				<li><a href="index.html" class="slide-section" >Home</a></li>
-				<li><a href="#about" class="slide-section">about us</a></li>
-<!-- 				<li><a href="#">Services</a></li>
- -->			<li><a href="#port" class="slide-section">Portfolio</a></li>
-<!-- 				<li><a href="blog.html" class="slide-section">Blog</a></li>
- -->			<li><a href="contact.html" class="slide-section">Contact</a></li>
-			</ul>
-		</nav>
+
 	</header>
 	<!-- Header section end -->
 
@@ -113,11 +168,12 @@
 
 	
 	<div class="bm-soc">
-		<img src="img/logo-1.png" class="bm-img">
+		<img src="img/logo-1.png" class="bm-img ">
 		<img src="img/logo-2.png" class="bm-img">
 		<img src="img/logo-3.png" class="bm-img">
 		<img src="img/logo-4.png" class="bm-img">
-	</div>
+<!-- 		<p> "Our Partners are World-Class" </p>
+ -->	</div>
 
 
 
@@ -138,7 +194,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="d_feature_img">
-                                <img src="img/feature-right.jpg" alt="">
+                                <img src="img/work.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -171,19 +227,19 @@
 
 
 
-         <section class="creative_feature_area">
+         <section class="creative_feature_area" id="about">
             <div class="container">
            
                 <div class="digital_feature p_100">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="d_feature_text">
+                            <div >
                                 <div >
-                                    <h2 class="bm-title">We Are A Creative <br /> Digital Agency Focused on Growing Brands Online</h2>
+                                    <h2 class="bm-title ">We Are A Creative <br /> Digital Agency Focused on Growing Brands Online</h2>
                                 </div>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi.</p>
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
-                                <!-- a class="read_btn" href="#">Read more</a> -->
+                                
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -240,9 +296,9 @@
             </div>
         </section>
 	<!-- Hero section end -->
-	<div class="container" style="background-color: #F7F7F7;">
+	<div id="port" class="container" style="background-color: #F7F7F7;">
 
-				<h2 class="bm-port" id="port"> PORTFOLIO </h2>
+				<h2 class="bm-port" > PORTFOLIO </h2>
                 <div class="c_feature_box">
                     <div class="row">
                         <div class="col-lg-4">
@@ -267,91 +323,95 @@
                 </div>
         </div>
 
-        <div class="section">
+       <div class="row p-t-170" id="fin">
+				<div class="col-md-6 p-b-30">
+					<div class="wrap-pic-romantic size2 bo-rad-10 hov-img-zoom m-l-r-auto" style="text-align: left">
+						<img src="img/dualphone.png" alt="IMG-OUR">
+					</div>
+				</div>
 
-        <div class="th-container" id="fin">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/dualphone.png" alt="dual phone" class="bm-img-one">
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2 class="bm-title">Launch your App</h2>
-                        <p class="bm-text">Kara runs an online business in her spare time, selling custom T-shirts on Teespring.com. While she already knew a bit about marketing, Kara worked with her mentor for three months to become an expert digital marketer, focusing especially on paid advertising on Facebook and Google, and influencer marketing on Instagram.
+				<div class="col-md-6 p-t-45 p-b-30">
+					<div class="wrap-text-romantic t-center">
+						<!-- <span class="tit2 t-center">
+							Romantic
+						</span> -->
 
-						Last month, her newly optimized campaigns generated an extra $3,000 in revenue and Kara is targeting to make $150,000 from her T-shirt business by the end of the year.
+						<h3 class="bm-title t-center m-b-35 m-t-5">
+							Launch your App
+						</h3>
 
-						Kara is now working with a <br>graphic design mentor to develop the skills to take her T-shirt designs to the next level. </p>
-                        
-                        <a class="read_btn" href="fintech.html">Read more</a>
-            		</div>
-
-        		</div>
-
-    		</div>
-    	</div>
-
-    	 <div class="section">
-
-        <div class="th-container" id="iot">
-            <div class="row">
-                
-                <div class="col-md-5 d-flex align-items-center">
-                    <div style="padding-left: 200px; width: 3000px;">
-
-                        <h2 class="bm-title-two">Launch your App</h2>
-                        <p class="bm-text">Kai works as a consultant in San Francisco, but ultimately wants to work in tech, building his own apps and products. Within four months of working with his mentor, Kai developed all the skills he needs to bring his app ideas to life: User interface design in Sketch, coding iPhone apps in Swift and Xcode, deploying his own server and database to Amazon Web Services, and developing his own pixel-perfect websites in Webflow.
-
-						Kai has already launched his own app, FreshCut, to the App Store (so far, yielding 20,000 downloads), and has built replicas of apps like Snapchat, Instagram, and Uber for practice.
-
-						Because of his investment in himself, Kai no longer needs to rely on anyone else to start his own technology business.
-
-
+						<p class="t-center m-b-22 size3 m-l-r-auto" style="text-align: left">
+							Fusce iaculis, quam quis volutpat cursus, tellus quam varius eros, in euismod lorem nisl in ante. Maecenas imperdiet vulputate dui sit amet vestibulum. Nulla quis suscipit nisl.
 						</p>
-                        <a class="read_btn-var-two" href="iot.html">Read more</a>
-            		</div>
+					</div>
+				</div>
+				
+			</div>
 
-        		</div>
-        		<div class="col-md-6">
-                    <img src="img/covfefe.png" alt="dual phone" class="bm-img-one">
-                </div>
+			<div class="row" id="iot">
+				<div class="col-md-6 p-t-45 p-b-30">
+					<div class="wrap-text-delicious t-center">
+						<!-- <span class="tit2 t-center">
+							Delicious
+						</span> -->
 
-    		</div>
-    	</div>
-</div>
-    	 
-    	<div class="th-container" id="spc">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/space.png" alt="dual phone" class="bm-img-one">
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2 class="bm-title">Launch your App</h2>
-                        <p class="bm-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem <br> eveniet vero maxime ratione </p>
+						<h3 class="bm-title t-center m-b-35 m-t-5">
+							Launch your Brand
+						</h3>
 
-                        <a class="read_btn" href="iot.html">Read more</a>
-                        
-            		</div>
+						<p class="t-center m-b-22 size3 m-l-r-auto" style="text-align: left;">
+							How to make a website responsive | Learn HTML and CSS | HTML tutorial | Basics of CSS. In this lesson you will learn how to make a website responsive using CSS media queries. Today it is a must to make your websites viewable on other devices such as tablets and mobile phones.
 
+								➤ GET ACCESS TO MY LESSON MATERIAL HERE!
 
+								First of all, thank you for all the support you have given me!
 
+								I am really glad to have such an awesome community on my channel. It motivates me to continue creating and uploading content! So thank you
+						</p>
+					</div>
+				</div>
 
-        		</div>
+				<div class="col-md-6 p-b-30">
+					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
+						<img src="img/covfefe.png" alt="IMG-OUR">
+					</div>
+				</div>
+			</div>
 
+    	<div class="row p-t-170" id="spc">
+				<div class="col-md-6 p-b-30">
+					<div class="wrap-pic-romantic size2 bo-rad-10 hov-img-zoom m-l-r-auto" >
+						<img src="img/space.png" alt="IMG-OUR">
+					</div>
+				</div>
 
-    		</div>
-    	</div>
+				<div class="col-md-6 p-t-45 p-b-30">
+					<div class="wrap-text-romantic t-center">
+						<!-- <span class="tit2 t-center">
+							Romantic
+						</span> -->
 
-    	
+						<h3 class="bm-title t-center m-b-35 m-t-5">
+							Launch your App
+						</h3>
 
+						<p class="t-center m-b-22 size3 m-l-r-auto" style="text-align: left">
+							Fusce iaculis, quam quis volutpat cursus, tellus quam varius eros, in euismod lorem nisl in ante. Maecenas imperdiet vulputate dui sit amet vestibulum. Nulla quis suscipit nisl.
+						</p>
+					</div>
+				</div>
+				
+			</div>
+
+        <div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+		
+<!--     	<a href="#" class="read_btn">Read more</a></div>
+ -->
 	<!-- Intro section start -->
 	
 
@@ -475,6 +535,33 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <script src="js-2/circle-active.js"></script>
         <script src="js-2/theme.js"></script>
+        <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js-3/main.js"></script>
 	<!-- Rev slider js -->
 	
 	<script >

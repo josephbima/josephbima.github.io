@@ -85,6 +85,15 @@ ol {
 	padding-left:55px;
 }
 
+.bm-soc p{
+	color: #969696;
+	text-align: center;
+	font-family: 'TImes New Roman';
+	font-size: 20px;
+	font-style: italic;
+	padding-right: 45px;
+}
+
 .bm-img{
 	padding: 50px;
 
@@ -129,7 +138,7 @@ ol {
 
 
 .tagline {
-	line-height: 600px;
+	line-height: 100px;
 	text-align: center;
 	color: white;
 	background-image: url('img/hero-slider/1.jpg');
@@ -1052,7 +1061,7 @@ ol {
 }
 
 .footer-section .social a:last-child {
-	margin-right: 20px;
+	margin-right: 20;
 }
 
 /*---------------------
@@ -1380,10 +1389,16 @@ ol {
 	height: 560px;
 }
 
+.logo-respon{
+	display: block;
+}
+
 
 /*---------------------
 	Responsive 
 -----------------------*/
+
+
 @media only screen and (max-width: 1650px) {
 	.sp-pad {
 		padding-left: 90px;
@@ -1396,6 +1411,19 @@ ol {
 	.services-text {
 		left: 80px;
 	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.bm-port{
+		font-size: 50px;
+	}
+	.circle_chart_area{
+		display: none;
+
+	}
+
+
 }
 
 @media only screen and (max-width: 1510px) {

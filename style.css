@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover, a:focus, a:active {
-    color: #383749;
+    color: #009B47;
 }
 
 a:focus {
@@ -2647,7 +2647,7 @@ p.footer-copyright {
 }
 
 .footer-widgets ul li a:hover {
-    color: #34d986;
+    color: #009B47;
 }
 
 .footer-widgets .follow-us .fa {
