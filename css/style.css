@@ -95,7 +95,9 @@ ol {
 }
 
 .bm-img{
-	padding: 50px;
+	padding: 45px;
+	padding-top: 50px;
+	padding-bottom: 70px;
 
 }
 
@@ -145,17 +147,16 @@ ol {
 }
 
 .bm-port {
-	line-height: 150px;
+	line-height: 20px;
 	text-align: center;
-	padding-left: -5px;
 	font-size: 75px;
-	padding-bottom: none;
-	color:#00843E;
+	padding-bottom: 45px;
+	color:white;
 	transition: all 400ms linear 0s;
 }
 
 .bm-port:hover {
-	color: #D7A010
+	color: ;
 }
 
 .bm-img-one {

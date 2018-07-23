@@ -550,7 +550,7 @@ i:before {
   position: relative;
 }
 
-.c_feature_box .col-lg-4:last-child .c_box_item:before {
+.c_feature_box .col-lg-3:last-child .c_box_item:before {
   display: none;
 }
 
