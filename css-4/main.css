@@ -124,7 +124,12 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #ec1d25;
+	color: #009b47;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 /* ------------------------------------ */

@@ -38,12 +38,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-: 'Roboto', sans-serif;
-    font-weight: 700;
+/*    font-family: 'Poppins', sans-serif;
+*/  font-weight: 700;
     color: #404551;
     line-height: 1.2;
 }
 
+.team-meta-info h3{
+    font-size: 15px;
+}
 a,
 a:hover,
 a:focus,
@@ -54,12 +57,16 @@ a:active {
     transition-duration: 500ms;
 }
 
+.a-link, .a-link:hover, .a-link:active, .a-link:visited, .a-link:focus {
+    text-decoration:none;
+}
+
 li {
     list-style: none;
 }
 
 p {
-    font-: 'Roboto', sans-serif;
+    font-: 'Poppins', sans-serif;
     color: #abadbe;
     font-size: 15px;
     font-weight: 500;
