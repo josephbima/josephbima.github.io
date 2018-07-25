@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #e0003b;
+  background-color: #E8A218;
   color: #fff;
 }
 
 ::selection {
-  background-color: #e0003b;
+  background-color: #E8A218;
   color: #fff;
 }
 
