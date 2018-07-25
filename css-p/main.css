@@ -2321,9 +2321,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(0deg, #00A44A 0%, #01B431 100%);
-  background: -webkit-linear-gradient(0deg, #00A44A 0%, #01B431 100%);
-  background: -ms-linear-gradient(0deg, #00A44A 0%, #01B431 100%);
+  background: -moz-linear-gradient(0deg, #08793D 0%, #00A44A 100%);
+  background: -webkit-linear-gradient(0deg, #08793D 0%, #00A44A 100%);
+  background: -ms-linear-gradient(0deg, #08793D 0%, #00A44A 100%);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -2999,7 +2999,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------- start brand Area -------------*/
 .brands-area {
   padding: 80px 0;
-  padding-top: 20px;
 }
 
 .brands-area .brand-wrap .owl-carousel .owl-item img {
