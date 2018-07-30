@@ -95,9 +95,10 @@ ol {
 }
 
 .bm-img{
-	padding: 45px;
 	padding-top: 50px;
 	padding-bottom: 70px;
+	padding-left: 70px;
+	padding-right: 140px;
 
 }
 
@@ -146,6 +147,16 @@ ol {
 	background-image: url('img/hero-slider/1.jpg');
 }
 
+.tagline-two {
+	line-height: 100px;
+	text-align: center;
+	}
+
+.tagline-two:hover{
+	color: green;
+}
+
+
 .bm-port {
 	line-height: 20px;
 	text-align: center;
@@ -157,6 +168,10 @@ ol {
 
 .bm-port:hover {
 	color: ;
+}
+.b-desc{
+	text-align: justify;
+	padding: 15px;
 }
 
 .bm-img-one {
@@ -1766,6 +1781,16 @@ ol {
 	color: #00a44a;
 }
 
+.a-link-two{
+	margin-top:  500px;
+	font-size: 60px;
+	margin-bottom: 400px;
+	color: black;
+}
+
+.a-link-two:hover {
+	color: #E8A218;
+}
 
 
 
