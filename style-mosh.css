@@ -1226,7 +1226,7 @@ span.accor-open {
     margin-top: -30px;
     left: -25px;
     border-radius: 50%;
-    color: #a2baff;
+    color: #08793d;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -1736,6 +1736,39 @@ span.accor-open {
 .mosh-cool-facts-area .cool-facts-content > p {
     color: #292d4f;
 }
+
+@media (max-width: 400px;){
+    .mosh-team-slides {
+        color: black;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------------
 ============= The End =============
