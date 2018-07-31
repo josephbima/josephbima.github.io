@@ -663,6 +663,10 @@ input[type="date" i] {
 /*[ Social ]
 -----------------------------------------------------------
 */
+
+.bm-dis{
+  display: none;
+}
 .social a {
   font-size: 15px;
   color: white;
@@ -688,10 +692,7 @@ input[type="date" i] {
   border-bottom: 2px solid #222222;
 }
 
-.btn-show-sidebar:hover {
-  border-top: 2px solid #ec1d25;
-  border-bottom: 2px solid #ec1d25;
-}
+
 
 @media (max-width: 1200px) {
   .main_menu > li {
@@ -714,7 +715,13 @@ input[type="date" i] {
   .wrap_header {
     height: 100px;
   }
+    .bm-dis {
+    display: inline;
+  }
+
+
 }
+
 
 
 
@@ -726,7 +733,6 @@ input[type="date" i] {
   position: fixed;
   z-index: 1200;
   width: 390px;
-  height: 100%;
   overflow: auto;
   background-color: white;
   top: 0;
@@ -734,7 +740,7 @@ input[type="date" i] {
 }
 
 @media (max-width: 576px) {
-  .sidebar {width: 300px;}
+  .sidebar {width: 60%;}
 }
 
 .show-sidebar {
@@ -791,6 +797,8 @@ input[type="date" i] {
   background-color: rgba(236,29,37,0.7);
 }
 
+
+
 @media (max-width: 576px) {
   .wrap_header {
     height: 80px;
@@ -800,7 +808,13 @@ input[type="date" i] {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .bm-dis {
+    display: inline;
+  }
 }
+
+
 
 
 
