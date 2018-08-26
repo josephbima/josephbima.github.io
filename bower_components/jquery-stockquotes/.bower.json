@@ -1,0 +1,27 @@
+{
+  "name": "jquery-stockquotes",
+  "version": "0.1.1",
+  "homepage": "https://github.com/ajwhite/jquery-stockquotes",
+  "authors": [
+    "Atticus White <contact@atticuswhite.com>"
+  ],
+  "description": "jQuery Stock Quotes",
+  "main": "dist/jquery.stockquotes.js",
+  "keywords": [
+    "jQuery",
+    "stock",
+    "quote",
+    "symbol"
+  ],
+  "license": "MIT",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "edf01b2741764ba37345dd1a4a92258c92e25c77"
+  },
+  "_source": "https://github.com/ajwhite/jquery-stockquotes.git",
+  "_target": "^0.1.1",
+  "_originalSource": "jquery-stockquotes",
+  "_direct": true
+}
